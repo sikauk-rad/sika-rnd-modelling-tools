@@ -13,7 +13,8 @@ dependencies = [
     "pandas>=2.1", 
     "polars>=1.0.0", 
     "scikit-learn>=1.4.0",
-    "beartype"
+    "beartype",
+    "xgboost",
 ]
 description = "Package containing useful functions for ML modelling, primarily focused on classical methods."
 readme = "README.md"
