@@ -1,0 +1,416 @@
+{
+    "LogisticRegression": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LinearRegression": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "RidgeClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "Ridge": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "Lasso": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "ElasticNet": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "TweedieRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "RANSACRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "QuantileRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LassoLARS": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "PassiveAggressiveRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "ARDRegression": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "TheilSenRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LARS": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "GaussianNB": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "ComplementNB": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "BernoulliNB": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "MultinomialNB": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "BayesianRidge": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "DecisionTreeClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "DecisionTreeRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LinearTreeClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LinearTreeRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "KNeighborsClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "KNeighborsRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LinearSVC": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LinearSVR": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "RadialSVC": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "RadialSVR": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "SigmoidSVC": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "SigmoidSVR": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "PolySVC": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "PolySVR": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LinearRVC": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LinearRVR": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "RadialRVC": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "RadialRVR": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "SigmoidRVC": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "SigmoidRVR": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "PolyRVC": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "PolyRVR": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "GaussianProcessClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "GaussianProcessRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "AdaBoostClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "AdaBoostRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "BaggingClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "BaggingRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "RandomForestClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "RandomForestRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LinearForestClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LinearForestRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "ExtraTreesClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "ExtraTreesRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "GradientBoostingClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "GradientBoostingRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LinearBoostClassifier": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LinearBoostRegressor": {
+        "_skl": true,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": false
+    },
+    "XGBClassifier": {
+        "_skl": false,
+        "_xgb": true,
+        "_lgb": false,
+        "_cat": false
+    },
+    "XGBRegressor": {
+        "_skl": false,
+        "_xgb": true,
+        "_lgb": false,
+        "_cat": false
+    },
+    "XGBRandomForestClassifier": {
+        "_skl": false,
+        "_xgb": true,
+        "_lgb": false,
+        "_cat": false
+    },
+    "XGBRandomForestRegressor": {
+        "_skl": false,
+        "_xgb": true,
+        "_lgb": false,
+        "_cat": false
+    },
+    "XGBLinearClassifier": {
+        "_skl": false,
+        "_xgb": true,
+        "_lgb": false,
+        "_cat": false
+    },
+    "XGBLinearRegressor": {
+        "_skl": false,
+        "_xgb": true,
+        "_lgb": false,
+        "_cat": false
+    },
+    "LGBMClassifier": {
+        "_skl": false,
+        "_xgb": false,
+        "_lgb": true,
+        "_cat": false
+    },
+    "LGBMRegressor": {
+        "_skl": false,
+        "_xgb": false,
+        "_lgb": true,
+        "_cat": false
+    },
+    "LGBMLinearClassifier": {
+        "_skl": false,
+        "_xgb": false,
+        "_lgb": true,
+        "_cat": false
+    },
+    "LGBMLinearRegressor": {
+        "_skl": false,
+        "_xgb": false,
+        "_lgb": true,
+        "_cat": false
+    },
+    "CatBoostClassifier": {
+        "_skl": false,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": true
+    },
+    "CatBoostRegressor": {
+        "_skl": false,
+        "_xgb": false,
+        "_lgb": false,
+        "_cat": true
+    }
+}

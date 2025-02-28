@@ -1,0 +1,278 @@
+{
+    "LogisticRegression": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "LinearRegression": {
+        "method": "Monte Carlo",
+        "num_trials": null
+    },
+    "RidgeClassifier": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "Ridge": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "Lasso": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "ElasticNet": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "TweedieRegressor": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "RANSACRegressor": {
+        "method": "Monte Carlo",
+        "num_trials": null
+    },
+    "QuantileRegressor": {
+        "method": "Bayesian",
+        "num_trials": null
+    },
+    "LassoLARS": {
+        "method": "Bayesian",
+        "num_trials": null
+    },
+    "PassiveAggressiveRegressor": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "ARDRegression": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "TheilSenRegressor": {
+        "method": "Monte Carlo",
+        "num_trials": null
+    },
+    "LARS": {
+        "method": "Bayesian",
+        "num_trials": null
+    },
+    "GaussianNB": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "ComplementNB": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "BernoulliNB": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "MultinomialNB": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "BayesianRidge": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "DecisionTreeClassifier": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "DecisionTreeRegressor": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "KNeighborsClassifier": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "KNeighborsRegressor": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "LinearSVC": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "LinearSVR": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "RadialSVC": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "RadialSVR": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "SigmoidSVC": {
+        "method": "Monte Carlo",
+        "num_trials": 100.0
+    },
+    "SigmoidSVR": {
+        "method": "Monte Carlo",
+        "num_trials": 100.0
+    },
+    "PolySVC": {
+        "method": "Monte Carlo",
+        "num_trials": 20.0
+    },
+    "PolySVR": {
+        "method": "Monte Carlo",
+        "num_trials": 20.0
+    },
+    "LinearRVC": {
+        "method": "Monte Carlo",
+        "num_trials": 10.0
+    },
+    "LinearRVR": {
+        "method": "Monte Carlo",
+        "num_trials": 10.0
+    },
+    "RadialRVC": {
+        "method": null,
+        "num_trials": null
+    },
+    "RadialRVR": {
+        "method": null,
+        "num_trials": null
+    },
+    "SigmoidRVC": {
+        "method": null,
+        "num_trials": null
+    },
+    "SigmoidRVR": {
+        "method": null,
+        "num_trials": null
+    },
+    "PolyRVC": {
+        "method": null,
+        "num_trials": null
+    },
+    "PolyRVR": {
+        "method": null,
+        "num_trials": null
+    },
+    "GaussianProcessClassifier": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "GaussianProcessRegressor": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "AdaBoostClassifier": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "AdaBoostRegressor": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "BaggingClassifier": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "BaggingRegressor": {
+        "method": "random halving",
+        "num_trials": null
+    },
+    "RandomForestClassifier": {
+        "method": "Bayesian",
+        "num_trials": 500.0
+    },
+    "RandomForestRegressor": {
+        "method": "Bayesian",
+        "num_trials": 500.0
+    },
+    "ExtraTreesClassifier": {
+        "method": "Bayesian",
+        "num_trials": 500.0
+    },
+    "ExtraTreesRegressor": {
+        "method": "Bayesian",
+        "num_trials": 500.0
+    },
+    "GradientBoostingClassifier": {
+        "method": "Bayesian",
+        "num_trials": 500.0
+    },
+    "GradientBoostingRegressor": {
+        "method": "Bayesian",
+        "num_trials": 500.0
+    },
+    "XGBRegressor": {
+        "method": "Bayesian",
+        "num_trials": 1000.0
+    },
+    "XGBClassifier": {
+        "method": "Bayesian",
+        "num_trials": 1000.0
+    },
+    "XGBRandomForestRegressor": {
+        "method": "Bayesian",
+        "num_trials": 1000.0
+    },
+    "XGBRandomForestClassifier": {
+        "method": "Bayesian",
+        "num_trials": 1000.0
+    },
+    "XGBLinearRegressor": {
+        "method": "Bayesian",
+        "num_trials": 500.0
+    },
+    "XGBLinearClassifier": {
+        "method": "Bayesian",
+        "num_trials": 500.0
+    },
+    "LGBMRegressor": {
+        "method": "evolutionary",
+        "num_trials": 2000.0
+    },
+    "LGBMClassifier": {
+        "method": "evolutionary",
+        "num_trials": 2000.0
+    },
+    "LGBMLinearRegressor": {
+        "method": "evolutionary",
+        "num_trials": 1000.0
+    },
+    "LGBMLinearClassifier": {
+        "method": "evolutionary",
+        "num_trials": 1000.0
+    },
+    "CatBoostRegressor": {
+        "method": "Bayesian",
+        "num_trials": 100.0
+    },
+    "CatBoostClassifier": {
+        "method": "Bayesian",
+        "num_trials": 100.0
+    },
+    "LinearTreeClassifier": {
+        "method": "Monte Carlo",
+        "num_trials": 100.0
+    },
+    "LinearTreeRegressor": {
+        "method": "Monte Carlo",
+        "num_trials": 100.0
+    },
+    "LinearForestClassifier": {
+        "method": "Monte Carlo",
+        "num_trials": 50.0
+    },
+    "LinearForestRegressor": {
+        "method": "Monte Carlo",
+        "num_trials": 50.0
+    },
+    "LinearBoostClassifier": {
+        "method": "Monte Carlo",
+        "num_trials": 30.0
+    },
+    "LinearBoostRegressor": {
+        "method": "Monte Carlo",
+        "num_trials": 30.0
+    }
+}

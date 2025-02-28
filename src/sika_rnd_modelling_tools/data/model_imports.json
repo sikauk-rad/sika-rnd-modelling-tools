@@ -1,0 +1,347 @@
+{
+    "LinearRegression": [
+        "sklearn.linear_model",
+        "LinearRegression",
+        "LinearRegression"
+    ],
+    "LogisticRegression": [
+        "sklearn.linear_model",
+        "LogisticRegression",
+        "LogisticRegression"
+    ],
+    "Ridge": [
+        "sklearn.linear_model",
+        "Ridge",
+        "Ridge"
+    ],
+    "RidgeClassifier": [
+        "sklearn.linear_model",
+        "RidgeClassifier",
+        "RidgeClassifier"
+    ],
+    "Lasso": [
+        "sklearn.linear_model",
+        "Lasso",
+        "Lasso"
+    ],
+    "ElasticNet": [
+        "sklearn.linear_model",
+        "ElasticNet",
+        "ElasticNet"
+    ],
+    "TweedieRegressor": [
+        "sklearn.linear_model",
+        "TweedieRegressor",
+        "TweedieRegressor"
+    ],
+    "RANSACRegressor": [
+        "sklearn.linear_model",
+        "RANSACRegressor",
+        "RANSACRegressor"
+    ],
+    "LassoLARS": [
+        "sklearn.linear_model",
+        "LassoLars",
+        "LassoLars"
+    ],
+    "PassiveAggressiveRegressor": [
+        "sklearn.linear_model",
+        "PassiveAggressiveRegressor",
+        "PassiveAggressiveRegressor"
+    ],
+    "ARDRegression": [
+        "sklearn.linear_model",
+        "ARDRegression",
+        "ARDRegression"
+    ],
+    "TheilSenRegressor": [
+        "sklearn.linear_model",
+        "TheilSenRegressor",
+        "TheilSenRegressor"
+    ],
+    "LARS": [
+        "sklearn.linear_model",
+        "Lars",
+        "Lars"
+    ],
+    "QuantileRegressor": [
+        "sklearn.linear_model",
+        "QuantileRegressor",
+        "QuantileRegressor"
+    ],
+    "LinearSVR": [
+        "sklearn.svm",
+        "LinearSVR",
+        "LinearSVR"
+    ],
+    "LinearSVC": [
+        "sklearn.svm",
+        "LinearSVC",
+        "LinearSVC"
+    ],
+    "BayesianRidge": [
+        "sklearn.linear_model",
+        "BayesianRidge",
+        "BayesianRidge"
+    ],
+    "GaussianNB": [
+        "sklearn.naive_bayes",
+        "GaussianNB",
+        "GaussianNB"
+    ],
+    "ComplementNB": [
+        "sklearn.naive_bayes",
+        "ComplementNB",
+        "ComplementNB"
+    ],
+    "BernoulliNB": [
+        "sklearn.naive_bayes",
+        "BernoulliNB",
+        "BernoulliNB"
+    ],
+    "MultinomialNB": [
+        "sklearn.naive_bayes",
+        "MultinomialNB",
+        "MultinomialNB"
+    ],    
+    "DecisionTreeRegressor": [
+        "sklearn.tree",
+        "DecisionTreeRegressor",
+        "DecisionTreeRegressor"
+    ],
+    "DecisionTreeClassifier": [
+        "sklearn.tree",
+        "DecisionTreeClassifier",
+        "DecisionTreeClassifier"
+    ],
+    "LinearTreeRegressor": [
+        "lineartree",
+        "LinearTreeRegressor",
+        "LinearTreeRegressor"
+    ],
+    "LinearTreeClassifier": [
+        "lineartree",
+        "LinearTreeClassifier",
+        "LinearTreeClassifier"
+    ],
+    "KNeighborsRegressor": [
+        "sklearn.neighbors",
+        "KNeighborsRegressor",
+        "KNeighborsRegressor"
+    ],
+    "KNeighborsClassifier": [
+        "sklearn.neighbors",
+        "KNeighborsClassifier",
+        "KNeighborsClassifier"
+    ],
+    "RadialSVR": [
+        "sklearn.svm",
+        "SVR",
+        "SVR"
+    ],
+    "RadialSVC": [
+        "sklearn.svm",
+        "SVC",
+        "SVC"
+    ],
+    "SigmoidSVR": [
+        "sklearn.svm",
+        "SVR",
+        "SVR"
+    ],
+    "SigmoidSVC": [
+        "sklearn.svm",
+        "SVC",
+        "SVC"
+    ],
+    "PolySVR": [
+        "sklearn.svm",
+        "SVR",
+        "SVR"
+    ],
+    "PolySVC": [
+        "sklearn.svm",
+        "SVC",
+        "SVC"
+    ],
+    "LinearRVR": [
+        "sklearn_rvm.em_rvm",
+        "EMRVR",
+        "RVR"
+    ],
+    "LinearRVC": [
+        "sklearn_rvm.em_rvm",
+        "EMRVC",
+        "RVC"
+    ],
+    "RadialRVR": [
+        "sklearn_rvm.em_rvm",
+        "EMRVR",
+        "RVR"
+    ],
+    "RadialRVC": [
+        "sklearn_rvm.em_rvm",
+        "EMRVC",
+        "RVC"
+    ],
+    "SigmoidRVR": [
+        "sklearn_rvm.em_rvm",
+        "EMRVR",
+        "RVR"
+    ],
+    "SigmoidRVC": [
+        "sklearn_rvm.em_rvm",
+        "EMRVC",
+        "RVC"
+    ],
+    "PolyRVR": [
+        "sklearn_rvm.em_rvm",
+        "EMRVR",
+        "RVR"
+    ],
+    "PolyRVC": [
+        "sklearn_rvm.em_rvm",
+        "EMRVC",
+        "RVC"
+    ],
+    "GaussianProcessRegressor": [
+        "sklearn.gaussian_process",
+        "GaussianProcessRegressor",
+        "GaussianProcessRegressor"
+    ],
+    "GaussianProcessClassifier": [
+        "sklearn.gaussian_process",
+        "GaussianProcessClassifier",
+        "GaussianProcessClassifier"
+    ],
+    "AdaBoostRegressor": [
+        "sklearn.ensemble",
+        "AdaBoostRegressor",
+        "AdaBoostRegressor"
+    ],
+    "AdaBoostClassifier": [
+        "sklearn.ensemble",
+        "AdaBoostClassifier",
+        "AdaBoostClassifier"
+    ],
+    "BaggingRegressor": [
+        "sklearn.ensemble",
+        "BaggingRegressor",
+        "BaggingRegressor"
+    ],
+    "BaggingClassifier": [
+        "sklearn.ensemble",
+        "BaggingClassifier",
+        "BaggingClassifier"
+    ],
+    "RandomForestRegressor": [
+        "sklearn.ensemble",
+        "RandomForestRegressor",
+        "RandomForestRegressor"
+    ],
+    "RandomForestClassifier": [
+        "sklearn.ensemble",
+        "RandomForestClassifier",
+        "RandomForestClassifier"
+    ],
+    "LinearForestRegressor": [
+        "lineartree",
+        "LinearForestRegressor",
+        "LinearForestRegressor"
+    ],
+    "LinearForestClassifier": [
+        "lineartree",
+        "LinearForestClassifier",
+        "LinearForestClassifier"
+    ],
+    "ExtraTreesRegressor": [
+        "sklearn.ensemble",
+        "ExtraTreesRegressor",
+        "ExtraTreesRegressor"
+    ],
+    "ExtraTreesClassifier": [
+        "sklearn.ensemble",
+        "ExtraTreesClassifier",
+        "ExtraTreesClassifier"
+    ],
+    "GradientBoostingRegressor": [
+        "sklearn.ensemble",
+        "GradientBoostingRegressor",
+        "GradientBoostingRegressor"
+    ],
+    "GradientBoostingClassifier": [
+        "sklearn.ensemble",
+        "GradientBoostingClassifier",
+        "GradientBoostingClassifier"
+    ],
+    "LinearBoostRegressor": [
+        "lineartree",
+        "LinearBoostRegressor",
+        "LinearBoostRegressor"
+    ],
+    "LinearBoostClassifier": [
+        "lineartree",
+        "LinearBoostClassifier",
+        "LinearBoostClassifier"
+    ],
+    "XGBRegressor": [
+        "xgboost",
+        null,
+        "xgb"
+    ],
+    "XGBClassifier": [
+        "xgboost",
+        null,
+        "xgb"
+    ],
+    "XGBRandomForestRegressor": [
+        "xgboost",
+        null,
+        "xgb"
+    ],
+    "XGBRandomForestClassifier": [
+        "xgboost",
+        null,
+        "xgb"
+    ],
+    "XGBLinearRegressor": [
+        "xgboost",
+        null,
+        "xgb"
+    ],
+    "XGBLinearClassifier": [
+        "xgboost",
+        null,
+        "xgb"
+    ],
+    "LGBMRegressor": [
+        "lightgbm",
+        null,
+        "lgb"
+    ],
+    "LGBMClassifier": [
+        "lightgbm",
+        null,
+        "lgb"
+    ],
+    "LGBMLinearRegressor": [
+        "lightgbm",
+        null,
+        "lgb"
+    ],
+    "LGBMLinearClassifier": [
+        "lightgbm",
+        null,
+        "lgb"
+    ],
+    "CatBoostRegressor": [
+        "catboost",
+        null,
+        "cat"
+    ],
+    "CatBoostClassifier": [
+        "catboost",
+        null,
+        "cat"
+    ]
+}

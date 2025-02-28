@@ -1,0 +1,278 @@
+{
+    "LinearRegression": [
+        null,
+        null
+    ],
+    "Ridge": [
+        null,
+        null
+    ],
+    "RidgeClassifier": [
+        null,
+        null
+    ],
+    "Lasso": [
+        null,
+        null
+    ],
+    "ElasticNet": [
+        null,
+        null
+    ],
+    "LassoLARS": [
+        null,
+        null
+    ],
+    "PassiveAggressiveRegressor": [
+        null,
+        null
+    ],
+    "ARDRegression": [
+        null,
+        null
+    ],
+    "TheilSenRegressor": [
+        null,
+        null
+    ],
+    "LARS": [
+        null,
+        null
+    ],
+    "QuantileRegressor": [
+        null,
+        null
+    ],
+    "RANSACRegressor": [
+        null,
+        null
+    ],
+    "TweedieRegressor": [
+        null,
+        null
+    ],
+    "DecisionTreeRegressor": [
+        null,
+        null
+    ],
+    "DecisionTreeClassifier": [
+        null,
+        null
+    ],
+    "AdaBoostClassifier": [
+        null,
+        null
+    ],
+    "AdaBoostRegressor": [
+        null,
+        null
+    ],
+    "BaggingRegressor": [
+        null,
+        null
+    ],
+    "BaggingClassifier": [
+        null,
+        null
+    ],
+    "GradientBoostingRegressor": [
+        null,
+        null
+    ],
+    "GradientBoostingClassifier": [
+        null,
+        null
+    ],
+    "RandomForestRegressor": [
+        null,
+        null
+    ],
+    "RandomForestClassifier": [
+        null,
+        null
+    ],
+    "ExtraTreesRegressor": [
+        null,
+        null
+    ],
+    "ExtraTreesClassifier": [
+        null,
+        null
+    ],
+    "CatBoostRegressor": [
+        null,
+        null
+    ],
+    "CatBoostClassifier": [
+        null,
+        null
+    ],
+    "XGBRegressor": [
+        null,
+        null
+    ],
+    "XGBClassifier": [
+        null,
+        null
+    ],
+    "XGBRandomForestRegressor": [
+        null,
+        null
+    ],
+    "XGBRandomForestClassifier": [
+        null,
+        null
+    ],
+    "XGBLinearRegressor": [
+        null,
+        null
+    ],
+    "XGBLinearClassifier": [
+        null,
+        null
+    ],
+    "LGBMRegressor": [
+        null,
+        null
+    ],
+    "LGBMClassifier": [
+        null,
+        null
+    ],
+    "LGBMLinearRegressor": [
+        "median",
+        "median"
+    ],
+    "LGBMLinearClassifier": [
+        "median",
+        null
+    ],
+    "LogisticRegression": [
+        "median",
+        null
+    ],
+    "LinearRVC": [
+        "median",
+        null
+    ],
+    "RadialRVC": [
+        "median",
+        null
+    ],
+    "SigmoidRVC": [
+        "median",
+        null
+    ],
+    "PolyRVC": [
+        "median",
+        null
+    ],
+    "LinearSVC": [
+        "median",
+        null
+    ],
+    "RadialSVC": [
+        "median",
+        null
+    ],
+    "SigmoidSVC": [
+        "median",
+        null
+    ],
+    "PolySVC": [
+        "median",
+        null
+    ],
+    "KNeighborsClassifier": [
+        "median",
+        null
+    ],
+    "GaussianProcessClassifier": [
+        "median",
+        null
+    ],
+    "GaussianNB": [
+        "max",
+        null
+    ],
+    "MultinomialNB": [
+        "max",
+        null
+    ],
+    "ComplementNB": [
+        "max",
+        null
+    ],
+    "BernoulliNB": [
+        "max",
+        null
+    ],
+    "BayesianRidge": [
+        "median",
+        "median"
+    ],
+    "KNeighborsRegressor": [
+        "median",
+        "median"
+    ],
+    "LinearSVR": [
+        "median",
+        "median"
+    ],
+    "RadialSVR": [
+        "median",
+        "median"
+    ],
+    "SigmoidSVR": [
+        "median",
+        "median"
+    ],
+    "PolySVR": [
+        "median",
+        "median"
+    ],
+    "LinearRVR": [
+        "median",
+        "median"
+    ],
+    "RadialRVR": [
+        "median",
+        "median"
+    ],
+    "SigmoidRVR": [
+        "median",
+        "median"
+    ],
+    "PolyRVR": [
+        "median",
+        "median"
+    ],
+    "GaussianProcessRegressor": [
+        "median",
+        "median"
+    ],
+    "LinearBoostClassifier": [
+        "median",
+        null
+    ],
+    "LinearBoostRegressor": [
+        null,
+        null
+    ],
+    "LinearForestClassifier": [
+        "median",
+        null
+    ],
+    "LinearForestRegressor": [
+        null,
+        null
+    ],
+    "LinearTreeClassifier": [
+        "median",
+        null
+    ],
+    "LinearTreeRegressor": [
+        null,
+        null
+    ]
+}

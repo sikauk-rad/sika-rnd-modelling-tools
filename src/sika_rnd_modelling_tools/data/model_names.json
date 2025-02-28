@@ -1,0 +1,162 @@
+{
+    "linear": [
+        "LogisticRegression",
+        "LinearRegression"
+    ],
+    "linear L2": [
+        "RidgeClassifier",
+        "Ridge"
+    ],
+    "linear L1": [
+        "LogisticRegression",
+        "Lasso"
+    ],
+    "elastic-net": [
+        "LogisticRegression",
+        "ElasticNet"
+    ],
+    "linear least angle": [
+        "LogisticRegression",
+        "LARS"
+    ],
+    "least angle L1": [
+        "LogisticRegression",
+        "LassoLARS"
+    ],
+    "Tweedie": [
+        "LogisticRegression",
+        "TweedieRegressor"
+    ],
+    "linear random sample consensus": [
+        "LogisticRegression",
+        "RANSACRegressor"
+    ],
+    "linear quantile": [
+        "LogisticRegression",
+        "QuantileRegressor"
+    ],
+    "linear passive aggressive": [
+        "LogisticRegression",
+        "PassiveAggressiveRegressor"
+    ],
+    "linear Theil-Sen": [
+        "LogisticRegression",
+        "TheilSenRegressor"
+    ],
+    "Gaussian Bayes": [
+        "GaussianNB",
+        "BayesianRidge"
+    ],
+    "complement Bayes": [
+        "ComplementNB",
+        "ARDRegression"
+    ],
+    "Bernoulli Bayes": [
+        "BernoulliNB",
+        "ARDRegression"
+    ],
+    "multinomial Bayes": [
+        "MultinomialNB",
+        "BayesianRidge"
+    ],
+    "decision tree": [
+        "DecisionTreeClassifier",
+        "DecisionTreeRegressor"
+    ],
+    "linear tree": [
+        "LinearTreeClassifier",
+        "LinearTreeRegressor"
+    ],
+    "k-nearest neighbours": [
+        "KNeighborsClassifier",
+        "KNeighborsRegressor"
+    ],
+    "linear support vector machine": [
+        "LinearSVC",
+        "LinearSVR"
+    ],
+    "radial support vector machine": [
+        "RadialSVC",
+        "RadialSVR"
+    ],
+    "sigmoid support vector machine": [
+        "SigmoidSVC",
+        "SigmoidSVR"
+    ],
+    "polynomial support vector machine": [
+        "PolySVC",
+        "PolySVR"
+    ],
+    "linear relevance vector machine": [
+        "LinearRVR",
+        "LinearRVR"
+    ],
+    "radial relevance vector machine": [
+        "RadialRVC",
+        "RadialRVR"
+    ],
+    "sigmoid relevance vector machine": [
+        "SigmoidRVC",
+        "SigmoidRVR"
+    ],
+    "polynomial relevance vector machine": [
+        "PolyRVC",
+        "PolyRVR"
+    ],
+    "Gaussian processes": [
+        "GaussianProcessClassifier",
+        "GaussianProcessRegressor"
+    ],
+    "AdaBoost": [
+        "AdaBoostClassifier",
+        "AdaBoostRegressor"
+    ],
+    "bagging": [
+        "BaggingClassifier",
+        "BaggingRegressor"
+    ],
+    "random forest": [
+        "RandomForestClassifier",
+        "RandomForestRegressor"
+    ],
+    "linear forest": [
+        "LinearForestClassifier",
+        "LinearForestRegressor"
+    ],
+    "extra trees": [
+        "ExtraTreesClassifier",
+        "ExtraTreesRegressor"
+    ],
+    "gradient boosting": [
+        "GradientBoostingClassifier",
+        "GradientBoostingRegressor"
+    ],
+    "linear gradient boosting": [
+        "LinearBoostClassifier",
+        "LinearBoostRegressor"
+    ],
+    "XGBoost": [
+        "XGBClassifier",
+        "XGBRegressor"
+    ],
+    "XGBoost random forest": [
+        "XGBRandomForestClassifier",
+        "XGBRandomForestRegressor"
+    ],
+    "XGBoost linear": [
+        "XGBLinearClassifier",
+        "XGBLinearRegressor"
+    ],
+    "LightGBM": [
+        "LGBMClassifier",
+        "LGBMRegressor"
+    ],
+    "LightGBM linear": [
+        "LGBMLinearClassifier",
+        "LGBMLinearRegressor"
+    ],
+    "CatBoost": [
+        "CatBoostClassifier",
+        "CatBoostRegressor"
+    ]
+}

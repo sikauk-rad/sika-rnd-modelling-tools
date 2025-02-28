@@ -1,0 +1,21 @@
+library,,_skl,_skl,_xgb,_xgb,_lgb,_lgb,_cat,_cat,properties,properties,properties,properties,properties
+metric name,,import,objective,metric,objective,metric,objective,metric,objective,increasing,target value,validation_function,probability,parameters
+regression,R2,r2_score,r2,,,l2,regression,R2,RMSE,True,1,,False,
+regression,RMSE,mean_squared_error,neg_root_mean_squared_error,rmse,reg:squarederror,rmse,regression,RMSE,RMSE,False,0,,False,{'squared': False}
+regression,MAE,mean_squared_error,neg_mean_absolute_error,mae,reg:absoluteerror,l1,regression_l1,MAE,MAE,False,0,,False,
+regression,MAPE,mean_absolute_percentage_error,neg_mean_absolute_percentage_error,mape,reg:squarederror,mape,mape,MAPE,MAPE,False,0,exceed_1,False,
+regression,max,max_error,max_error,,,,,,,False,0,,False,
+regression,median,median_absolute_error,neg_median_absolute_error,,,,,MedianAbsoluteError,Quantile,False,0,,False,
+regression,RMSLE,mean_squared_log_error,neg_mean_squared_log_error,rmsle,reg:squaredlogerror,,,MSLE,LogLinQuantile,False,0,exceed_minus1,False,{'squared': False}
+regression,Poisson,mean_poisson_deviance,neg_mean_poisson_deviance,poisson-nloglik,count:poisson,poisson,poisson,Poisson,Poisson,False,0,exceed_0,False,
+regression,Gamma,mean_gamma_deviance,neg_mean_gamma_deviance,gamma-deviance,reg:gamma,gamma_deviance,gamma,,,False,0,exceed_0,False,
+regression,Tweedie,mean_tweedie_deviance,,tweedie-nloglik@1.5,reg:tweedie,tweedie,tweedie,,,False,0,exceed_0,False,
+binary classification,logloss,log_loss,neg_log_loss,logloss,binary:logistic,binary_logloss,binary,Logloss,Logloss,False,0,,True,
+binary classification,error,zero_one_loss,,error,binary:logistic,binary_error,binary,ZeroOneLoss,Logloss,True,1,,False,
+binary classification,AUC,roc_auc_score,roc_auc,auc,binary:logistic,auc,binary,AUC,Logloss,True,1,,False,
+binary classification,MAP,average_precision_score,average_precision,map,binary:logistic,average_precision,binary,PRAUC,Logloss,True,1,,False,
+binary classification,F1,f1_score,f1,,,,,F1,Logloss,True,1,,False,{'zero_division': 0}
+multi-classification,logloss,log_loss,neg_log_loss,mlogloss,multi:softprob,multi_logloss,multiclassova,MultiClass,MultiClass,False,0,,True,
+multi-classification,error,zero_one_loss,,merror,multi:softprob,multi_error,multiclassova,ZeroOneLoss,MultiClass,True,1,,False,
+multi-classification,AUC,roc_auc_score,roc_auc_ovr_weighted,,,,,,,True,1,,True,"{'average': 'weighted', 'multi_class': 'ovr'}"
+multi-classification,F1,f1_score,f1_weighted,,,,,TotalF1,MultiClass,True,1,,False,"{'zero_division': 0, 'average': 'weighted'}"
