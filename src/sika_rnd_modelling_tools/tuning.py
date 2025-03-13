@@ -5,7 +5,7 @@ from collections.abc import Callable
 from typing import Any, Literal
 from numbers import Number
 import orjson as json
-from importlib.resources import files
+from importlib_resources import files
 from types import NoneType
 from beartype import beartype
 
