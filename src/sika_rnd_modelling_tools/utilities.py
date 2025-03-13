@@ -158,13 +158,23 @@ def general_split(
         splitter_kw = 'groups'
 
     for train_size, test_size in train_test_sizes:
-        splitter = splitter_class(
-            train_size = train_size,
-            test_size = test_size,
-            random_state = random_state,
-        )
-        splitter_kwargs[splitter_kw] = groups
-        train_idx, test_idx = next(splitter.split(arrays[0], **splitter_kwargs))
+        try:
+            splitter = splitter_class(
+                train_size = train_size,
+                test_size = test_size,
+                random_state = random_state,
+            )
+            splitter_kwargs[splitter_kw] = groups
+            train_idx, test_idx = next(splitter.split(arrays[0], **splitter_kwargs))
+        except ValueError:
+            splitter = splitter_class(
+                train_size = train_size,
+                test_size = test_size * 0.99,
+                random_state = random_state,
+            )
+            splitter_kwargs[splitter_kw] = groups
+            train_idx, test_idx = next(splitter.split(arrays[0], **splitter_kwargs))
+
         new_arrays, test_arrays = [], []
         for array, is_pd in zip(arrays, is_pds):
             new_arrays.append(array.iloc[train_idx] if is_pd else array[train_idx])
@@ -253,3 +263,39 @@ def score_from_string(
     for s in scorer:
         scores[s] = string_scorers[s](y, y_pred)
     return scores
+
+
+def get_group_means_stds(
+    array: NDArray[np.number],
+    groups: NDArray,
+) -> dict:
+
+    unique_groups, group_idx, group_counts = np.unique(
+        groups, 
+        return_counts = True, 
+        return_inverse = True,
+    )
+    n_unique_groups = unique_groups.shape[0]
+    n_columns = array.shape[1]
+    group_idx = group_idx.argsort()
+
+    group_labels = np.repeat(np.arange(n_unique_groups), group_counts)
+
+    group_counts = group_counts[:,None]
+
+    means = np.zeros((n_unique_groups, n_columns), dtype = 'float64')
+    means[group_labels] += array[group_idx]
+    means /= group_counts
+
+    stds = np.zeros((n_unique_groups, n_columns), dtype = 'float64')
+    stds[group_labels] += (array[group_idx] - means[group_labels])**2
+
+    stds /= group_counts
+    stds **= 0.5
+
+    return [{
+        'group': group,
+        'mean': mean,
+        'std': std,
+        'samples': counts,
+    } for group, mean, std, counts in zip(unique_groups, means, stds, group_counts)]

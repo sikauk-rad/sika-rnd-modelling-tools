@@ -145,12 +145,14 @@ class LinearModel(BaseEstimator):
             missing = 'raise',
         ).fit()
         model_statistics = model.summary2().tables[1]
-        p_values = model_statistics.iloc[int(fit_intercept):, 3]
-        p_mask = p_values.values <= p_threshold
+        p_values = model_statistics.iloc[int(fit_intercept):, 3].values
+        p_mask = p_values <= p_threshold
         if not p_mask.any():
             p_threshold = np.nanmin(p_values)
             print(f'p_threshold overridden to {p_threshold}.')
-        return p_values.values <= p_threshold
+            return p_values <= p_threshold
+        else:
+            return p_mask
 
 
     def fit(

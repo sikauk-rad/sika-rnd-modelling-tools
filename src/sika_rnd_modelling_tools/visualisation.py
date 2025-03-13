@@ -139,7 +139,6 @@ def plot_linear_model(
     ax_scatter.set_xlabel(f'actual {y_name}')
     ax_scatter.set_ylabel(f'predicted {y_name}')
     ax_scatter.legend()
-    plt.show()
 
     return fig, (ax_scatter, ax_bar)
 
