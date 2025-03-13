@@ -9,7 +9,7 @@ from importlib.resources import files
 from types import NoneType
 from beartype import beartype
 
-data_path = files().joinpath('data')
+data_path = files(None).joinpath('data')
 
 
 with data_path.joinpath('parameter_grids.json').open(mode = 'rb') as parameter_grids:
