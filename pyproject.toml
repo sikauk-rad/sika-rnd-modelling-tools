@@ -16,6 +16,7 @@ dependencies = [
     "beartype",
     "xgboost",
     "importlib_resources",
+    "statsmodels",
 ]
 description = "Package containing useful functions for ML modelling, primarily focused on classical methods."
 readme = "README.md"
