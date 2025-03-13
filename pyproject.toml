@@ -18,6 +18,7 @@ dependencies = [
     "importlib_resources",
     "statsmodels",
     "lightgbm",
+    "seaborn",
 ]
 description = "Package containing useful functions for ML modelling, primarily focused on classical methods."
 readme = "README.md"
